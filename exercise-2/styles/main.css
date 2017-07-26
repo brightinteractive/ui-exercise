@@ -1,0 +1,718 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+body {
+	font-size: 12px;
+    color: #444;
+}
+h1 {
+	font-size: 26px;
+	line-height: 30px;
+	margin: 0 0 20px 0;
+
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 16px;
+}
+
+a {
+	font-weight: bold;
+    color: #0497B9;
+}
+a:hover {
+    text-decoration: none;
+}
+
+           body {
+                line-height: 16px;
+            }
+  
+            a .caret {
+                margin-top: 5px;
+                margin-left: 2px;
+            }
+
+            
+            .search-box input {
+                margin-bottom: 0 !important;
+                width: 250px;
+                padding: 3px 6px;
+                border-radius: 4px;
+                border-color: #fff;
+                font-size: 12px;
+            }
+            .search-box button {
+                background: transparent;
+                border:0;
+                margin-left: -28px;
+                padding: 5px 5px 0 5px;
+                height: 24px;
+            }
+            .search-box a {
+                color: #fff;
+                font-weight: normal;
+                margin-left: 12px;
+                vertical-align: middle;
+            }
+
+          
+
+            .container {
+                width: 960px;
+            }
+            .span10 {
+                padding-left: 20px;
+            }
+
+
+
+.header {
+	height: 72px;
+	background: blue;
+	
+	color: #fff;
+	background: -moz-linear-gradient(top, #3A98B2 0%, #3EAFC1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3A98B2), color-stop(100%,#3EAFC1));
+	background: -webkit-linear-gradient(top, #3A98B2 0%,#3EAFC1 100%);
+	background: -o-linear-gradient(top, #3A98B2 0%,#3EAFC1 100%);
+	background: -ms-linear-gradient(top, #3A98B2 0%,#3EAFC1 100%);
+	background: linear-gradient(to bottom, #3A98B2 0%,#3EAFC1 100%);
+	margin-bottom: 20px;
+	background: #136985 url(../images/big-strip-bg-extra.jpg) 60% -20px no-repeat;
+    background: #333;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.search-box {
+                margin-right: 30px;
+                margin-top: 22px;
+            }
+.nav {
+	height: 200px;
+}
+
+img.logo {
+    display:block;
+    margin-top: 15px
+}
+.bulkbar {
+	margin-bottom: 20px;
+	
+}
+
+.highlight {
+	background: #FFFFA9;
+}
+
+.bulkbar.affix {
+	background: #fff;
+	top: 0;
+	width: 780px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	margin-left: -10px;
+	padding: 0 10px;
+}
+.bulkbar-count {
+	margin: 10px 0;
+	line-height: 30px;
+}
+.bulkbar-count i {
+    margin-top: 7px;
+}
+.bulkbar-select {
+	margin-right: 12px;
+}
+
+.bulkbar-full-select {
+	display: inline-block;
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+	margin-left: 9px;
+}
+.bulkbar .btn-group .button {
+	margin-left: 5px;
+}
+
+.full-select-mode {
+	display:none;
+}
+.full-select-done {
+	display:none;
+}
+.icon-selector {
+	width: 10px;
+	height: 10px;
+	background: url(../images/icon-selector.png) top left no-repeat;
+	margin: 3px 0 0 0;
+}
+
+.bulkbar-select.all .icon-selector {
+	background-position: 0 -10px;
+}
+.bulkbar-select.some .icon-selector {
+	background-position: 0 -20px;
+}
+
+ul.linkList {
+	list-style: none;
+	margin: 26px 0 0 0;
+	padding:0;
+	overflow:hidden;
+	height:1%;
+}
+ul.linkList li {
+	float:left;
+	margin-left:1em;
+	padding: 2px 0 2px 1em;
+	line-height: 16px;
+}
+ul.linkList li:first-child,
+ul.linkList li.no-border {
+	margin-left:0;
+	padding-left:0;
+	border:0;
+}
+ul.linkList a {
+	display:block;
+
+
+}
+.header ul.linkList a{
+    color: #fff;
+        font-weight: normal;
+}
+ul.linkList li.active a{
+	color: #333;
+}
+/* Alternate version following other content */
+ul.linkList-following {
+    margin-left: 1em;
+    
+}
+ul.linkList-following li:first-child {
+    border-left: 1px solid #ccc;
+    padding-left: 1em;
+}
+
+ul.linkList-tight {
+    margin-top:0;
+}
+ul.linkList-tight li {
+    padding: 0 0 0 0.6em;
+
+}
+
+.query {
+	display:inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/glyphicons_194_circle_question_mark.png) 0 0 no-repeat;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+
+/* From asset bank ----- */
+ul.lightbox { 
+   list-style: none; 
+   padding: 0; 
+   margin: 0 0 20px 0; 
+   padding-bottom: 1em; }
+   
+ul.lightbox > li { 								/* lightbox panels */
+   padding: 0; 
+   float: left; 
+   width: 178px; 
+   margin:  0 20px 20px 0; 
+   background-color: #f5f5f5; 
+   border: 1px solid #ddd; 
+   text-align: center; 
+   line-height: 16px;
+   border-radius: 4px;
+}
+ul.lightbox > li:nth-child(4n +4) {
+	margin-right:0;
+}
+
+ul.lightbox label {
+	cursor: pointer;
+}
+
+ul.lightbox li.is-selected {
+	border-color: #A9CE8A;
+	background-color: #E9F9D0;
+}
+	
+ul.lightbox li div.detailWrapper {		/* wraps thumbnmail and details */
+	margin: 8px 8px 0 8px;
+	word-wrap: break-word;	
+	height:1%;							/* Needed to stop webkit adding extra height when dynamically creating asset panels */
+	min-height: 16em;			
+}	
+
+ul.lightbox li div.detailWrapper a.thumb {
+	min-height: 11.5em;
+}	
+
+div.metadataWrapper {
+	min-height: 6.8em;		/* this is also defined as height in ie5.css and ie6.css */
+	padding-top:0.5em;
+}
+ul.attributeList {
+	list-style: none;
+	margin: 1em 0;
+	padding: 0;
+    font-size: 11px;
+}
+ul.lightbox ul.attributeList {
+	margin-top: 0em;
+}
+ul.attributeList li {
+	float:none;
+	display:block;
+	border:0 !important;
+	width: auto !important;
+	margin:0 0 0.3em 0; padding:0;
+	background: transparent !important;
+}
+ul.attributeList li h2 {
+	margin-bottom: 0.3em;
+}
+ul.attributeList li p {
+	display:inline;
+}
+	
+div.detailWrapper p{
+	display:inline;
+	margin:0;
+	
+}   
+div.detailWrapper p.block{
+	display:block;
+	margin:4px 0 4px 0;
+}  
+div.detailWrapper span {
+	padding:2px 0;
+	display:block;
+}
+div.detailWrapper span.larger {
+	padding:0;
+	float:none;		/*Needed in case you are within a form.floated*/
+}
+div.detailWrapper span.notRated {
+	padding:5px 0 3px 0;
+}
+div.detailWrapper a.note {
+	font-weight: normal;
+	text-transform: lowercase;
+}
+/* Style for when optional description is included */
+ul.lightbox li p.catDesc { line-height:1.2em; }
+
+/* Don't want icons (e.g. word, pdf) to have a border */
+ul.lightbox img.icon {border:0px;}
+
+/* Small video or audio icon that appears nect to title */
+ul.lightbox li img.media_icon { 
+	border: 0; 
+	position:relative; 
+	top:2px; 
+	margin:0 3px 4px 0;
+	}
+
+/* Action links */
+ul.lightbox ul.action { 
+	padding: 0 8px 8px 10px; 
+    text-align:left;
+	margin:0;
+    list-style:none;
+	}
+ul.lightbox ul.action li {
+    line-height: 16px;
+    margin-top: 3px;
+    font-size: 11px;
+}
+	
+ul.lightbox ul.action a, ul.lightbox ul.action span.added, ul.lightbox p.action span.disabled {
+	font-weight: normal; 
+
+	display:block; 
+	}
+
+ul.lightbox p.action a.view-large {
+	font-size: 11px;
+}
+ul.lightbox p.action a.edit { 
+		/*background: url(../images/edit.png) right center no-repeat; 
+		padding-right: 18px; */
+		background: url(../images/small_arrow.gif) right center no-repeat; 
+}
+
+
+/* Icon attributes - show with action links */      
+div.iconAttrWrapper {
+	padding:0 9px 0 0; 
+}
+ul.lightbox p.iconAttr {
+	display:block;
+	margin:0; 
+	font-size: 90%;
+	text-align:right; 
+}
+ul.lightbox p.iconAttr a {
+	font-weight: normal;
+}
+ul.lightbox p.iconAttr img {
+	border:0;
+}
+
+
+
+/* ================================================================================= 
+	table.form styles
+	this is the main type of table used for forms throughout the site										
+==================================================================================== */
+
+table.form { width: 100%; margin-bottom: 1em; } 
+table.form th, table.form td { padding:3px 0; vertical-align: top; }
+
+table.form th { text-align: left; padding: 6px 15px 0 0; width: 108px; }
+table.form th.checkbox, table.form td.checkbox {padding-top: 6px;}
+table.form td.padded { padding: 6px 6px 0 0; }
+div.dialogPanel table.form th {width:108px; padding-right:5px;}
+div.dialogPanel table.form  {margin:0;}	/* dont need a margin as the dialogPanel holder has padding */
+
+table.form input[type="text"] {width:200px;}					/* standard input field width */
+table.form input.small, input.small { width: 90px !important; }		/* use this for smaller input fields (e.g date fields) */
+input.vsmall {
+	width: 2.5em !important;
+}
+table.form select { width: 208px; }
+table.form select.small {width:98px;}			/* to match smaller text fields */
+table.form input.checkbox { width: auto; margin-bottom:0; margin-left:0; }
+
+
+table.form input.file { width: auto; }
+table.form textarea { width: 335px; height: auto; }
+
+table.form input.checkbox, table.form input.button, table.form input.radio { width: auto; }
+
+/* Positioning of calendar and question mark icons */
+table.form img.icon, #reportSelect img.icon { padding: 0px 4px 0px 2px; position:relative; top:2px;  } 
+table.form img.help { position:relative; top:2px;} 
+
+table.form th.translation { font-weight: normal; }
+table.form tr.spacer, table.form tr.spacer td { height: 12px; }
+
+
+/* On bulk update page when changing categories or access levels */
+table.form.catUpdate th {
+	padding:4px 0 0 0; width:123px;
+	text-align: left
+}
+table.form.catUpdate td.middle {
+	padding-right: 4px; 
+	width: 130px;
+}
+table.form.catUpdate table {
+	margin:0 !important;
+}
+table.form.catUpdate input.radio {
+	margin:0 3px 0 0;
+	position:relative; top:2px;
+}
+table.form ul {
+	list-style: none; margin: 0;
+	padding:0;
+	width: 50%;
+}
+table.form ul li {
+	margin-bottom: 0.8em;
+}
+table.form div.autocomplete ul {
+	width: 100%;		/* fix for autocomplete dropdown */
+}
+
+table.form table.nested {
+	margin-bottom:0.5em;
+}
+table.form table.nested td {
+	padding: 0 0.5em 0.5em 0;
+}
+
+table.form td.note {
+	padding: 6px 0 0 5px;
+}
+
+
+/* New style of system message */
+
+.msg-error,
+.msg-confirm,
+.msg-info,
+.msg-warning {
+    border:1px solid #ccc;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+    padding: 20px 20px 20px 70px;
+    margin-bottom: 15px;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #eee;
+    color: #5B4226;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.msg-error *:last-child,
+.msg-confirm *:last-child,
+.msg-info *:last-child,
+.msg-warning *:last-child {
+    margin-bottom:0;
+}
+.msg-error {
+	border-color: #D6A7A7;
+	background-color: #FCE4E4;
+	background-image: url(../images/msg-error.png);
+	color:#AA3434;
+}
+.msg-confirm {
+	border-color: #A9CE8A;
+	background-color: #E9F9D0;
+	background-image: url(../images/msg-confirm.png);
+    color: #5D843B;
+}
+.msg-info {
+	border-color: #A7C7D1;
+	background-color: #e7f0f3;
+	background-image:  url(../images/msg-info.png);
+	color: #385666;
+}	
+.msg-warning {
+    border-color: #DBBF92;
+    background-color: #FDFECD;
+    background-image:  url(../images/msg-warning.png);
+    color: #9B6A1A;
+}   
+
+.msg-noicon {
+    background-image: none;
+    padding-left: 20px;
+}
+
+/* Message panel typography */
+
+.msg-error a,
+.msg-confirm a,
+.msg-info a,
+.msg-warning a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.msg-warning a {
+    color: #9B6A1A;
+}
+.msg-error a {
+    color: #AA3434;
+}
+.msg-confirm a {
+    color: #105F2C;
+}
+.msg-info a {
+    color: #385666;
+}
+
+
+.msg-error .button,
+.msg-confirm .button,
+.msg-info .button,
+.msg-warning .button {
+    color: #444;
+    font-weight: normal;
+}
+
+.msg-error .multilineButton,
+.msg-confirm .multilineButton,
+.msg-info .multilineButton,
+.msg-warning .multilineButton {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.msg-error > h3,
+.msg-confirm > h3,
+.msg-info > h3,
+.msg-warning > h3 {
+    line-height: 22px;
+    margin:0 0 0.2em 0;
+}
+
+.msg-error > h3 a,
+.msg-confirm > h3 a,
+.msg-info > h3 a,
+.msg-warning > h3 a {
+    line-height: 22px;
+    margin:0;
+}
+
+.msg-error p,
+.msg-confirm p,
+.msg-info p,
+.msg-warning p {
+    margin:0 0 0.2em 0;
+}
+
+.msg-error ul,
+.msg-confirm ul,
+.msg-info ul,
+.msg-warning ul {
+	margin:0.5em 0;
+    padding:0;
+	list-style: square;
+	list-style-position:inside;
+}	
+.msg-error li,
+.msg-confirm li,
+.msg-info li,
+.msg-warning li {
+	margin:0 0 0.5em 0;
+    padding:0;
+}
+
+
+.msg-confirm.msg-noicon h2 {
+	background: url(../images/accept.png) left 2px no-repeat;
+	padding-left: 22px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+.msg-confirm.msg-noicon h3 {
+	background: url(../images/msg-confirm.png) left 0 no-repeat;
+	padding-left: 40px;
+	line-height: 32px;
+	margin-bottom: 0;
+}
+
+.msg-error div.floated,
+.msg-confirm div.floated,
+.msg-info div.floated,
+.msg-warning div.floated {
+	float: left;
+	padding: 1em 0;
+	margin: 1em 0;
+}
+
+.msg-error img.loader,
+.msg-confirm img.loader,
+.msg-info img.loader,
+.msg-warning img.loader {
+	float:right;
+	margin-top: 3px;
+}
+
+.msg-confirm.empty h2{
+	background-position: 1em 1em;
+}	
+
+
+.assets {
+    list-style:none;
+    padding: 0;
+    margin:20px 0;
+    overflow: hidden;
+    zoom:1;
+}
+.assets > li {
+    float:left;
+    display:block;
+    width: 130px;
+    background: #eee;
+    margin: 0 20px 20px 0;
+}
+
+
+/* ================================================================================= 
+    List style tables styles (use <thead>)                                          
+==================================================================================== */
+
+.table td {
+    line-height: 16px;
+}
+table.list {
+    border-bottom: 1px solid #ccc;
+    margin: 1em 0;
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+}
+
+
+table.list th, table.list td {
+    padding: 0.8em 2em 0.8em 0;
+    text-align: left;
+    vertical-align: top;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 0 0 0;    
+
+}
+
+table.list thead th {
+    vertical-align: bottom;
+    border-top:0;
+}
+
+table.list td.action {
+    padding-right:1em;
+}
+table.list th.width150, table.list td.width150 {
+    width: 150px;   
+}
+
+table.list.stripey thead tr,table.list.stripey thead th {
+    background: none !important;
+    vertical-align:bottom;
+}
+table.highlight tr:hover td, table.highlight tr:hover td {
+    background-color: #f3f3f3 !important;
+}
+/* drag and drop */
+table.list  td.sort {
+    cursor: move;
+    background: url('../../images/standard/misc/grip.gif') left center no-repeat;
+    padding-left: 13px;
+}
+table.list tr.active td {
+    border-bottom-width: 1px;
+    background-color: #d3e1fa;
+    border-color: #77A5BF;
+    background-color: #e7f0f3;
+}
+table.list tr.landing {
+    height: 23px;
+}
+
+/* Modifiers */
+table.list-centered td {
+    vertical-align: middle;
+}
+table.list-fullwidth {
+    width: 100%;
+}
+
+/* Nasty nested tables */
+table.list table td {
+    border: 0;
+    padding: 0 0.5em 0.2em 0;
+}
+
+table.list tr.spacer td {
+    background: #fff !important;
+    height: 2em;
+}
+
+
